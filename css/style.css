@@ -1,4 +1,14 @@
 @charset "UTF-8";
+.contenedor {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.contenido {
+  width: 960px;
+  margin: 0 auto;
+}
+
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -9958,16 +9968,6 @@ body {
 .nav ul li a {
   text-decoration: none;
   text-transform: uppercase;
-}
-
-.contenedor {
-  width: 960px;
-  margin: 0 auto;
-}
-
-.contenido {
-  width: 960px;
-  margin: 0 auto;
 }
 
 .listad-noticias {
