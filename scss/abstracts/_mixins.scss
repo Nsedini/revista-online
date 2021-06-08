@@ -1,0 +1,12 @@
+@mixin contenedor {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.contenedor {
+    @include contenedor();
+}
+
+.contenido {
+    @include contenedor();
+}
