@@ -1,4 +1,19 @@
 
 body {
     font-family: monospace;
+
+    @media (max-width: 576px) {
+        .contenedor {
+            max-width: 540px;
+            display: grid;
+            gap: 5px;
+                .noticias {
+                    display: inline;
+                }
+                h2 {
+                    font-size: 0.80em;
+                    text-align: center;
+                }
+        }
+    }
 }
