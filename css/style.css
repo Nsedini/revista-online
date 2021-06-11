@@ -9945,6 +9945,18 @@ h3 {
 body {
   font-family: monospace;
 }
+@media (max-width: 576px) {
+  body .contenedor {
+    max-width: 540px;
+  }
+  body .contenedor .noticias {
+    display: inline;
+  }
+  body .contenedor h2 {
+    font-size: 0.8em;
+    text-align: center;
+  }
+}
 
 .menu {
   width: 60em;
@@ -10012,7 +10024,7 @@ body {
 
 .tags ul li {
   padding: 0.125em 0.25em;
-  background-color: #00ff00;
+  background-color: #8080ff;
   margin-right: 1px;
   color: white;
 }
