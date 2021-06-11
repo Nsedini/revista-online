@@ -11081,6 +11081,20 @@ h3 {
 body {
   font-family: monospace;
 }
+@media (max-width: 576px) {
+  body .contenedor {
+    max-width: 540px;
+    display: grid;
+    gap: 5px;
+  }
+  body .contenedor .noticias {
+    display: inline;
+  }
+  body .contenedor h2 {
+    font-size: 0.8em;
+    text-align: center;
+  }
+}
 
 .menu {
   width: 60em;
