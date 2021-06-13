@@ -9946,15 +9946,13 @@ body {
   font-family: monospace;
 }
 @media (max-width: 576px) {
-  body .contenedor {
-    max-width: 540px;
-  }
-  body .contenedor .noticias {
-    display: inline;
-  }
-  body .contenedor h2 {
-    font-size: 0.8em;
+  body h2 {
+    font-size: 0.9em;
     text-align: center;
+  }
+  body p {
+    text-align: justify;
+    font-size: 0.7em;
   }
 }
 
@@ -9976,12 +9974,34 @@ body {
   width: 52.5em;
   text-align: right;
 }
+.nav ul {
+  list-style-type: none;
+}
 
 .nav ul li a {
   text-decoration: none;
   text-transform: uppercase;
+  list-style-type: none;
 }
 
+@media (max-width: 576px) {
+  .menu {
+    width: 1em;
+  }
+
+  .logo {
+    font-size: 0.8em;
+    display: block;
+  }
+
+  nav {
+    width: 1.5em;
+    display: block;
+  }
+  nav ul li {
+    display: block;
+  }
+}
 .listad-noticias {
   width: 43.75em;
   float: left;
