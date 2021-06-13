@@ -15,11 +15,33 @@
     display: inline-block;
     width: 52.5em;
     text-align: right;
+
+    ul {
+        list-style-type: none;
+    }
 }
-
-
 
 .nav ul li a {
     text-decoration: none;
     text-transform: uppercase;
+    list-style-type: none;
+}
+
+@media (max-width: 576px) {
+    .menu {
+        width: 1em;
+    }
+    .logo {
+        font-size: 0.8em;
+        display: block;
+    }
+    nav {
+        width: 1.5em;
+        display: block;
+        ul li {
+            display: block;
+        }
+        
+    }
+    
 }
