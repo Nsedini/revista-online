@@ -9961,20 +9961,18 @@ body {
   padding: 0.625em;
   border-bottom: 1px solid gray;
 }
-
-.logo {
+.menu .logo {
   font-size: 1.5em;
   font-weight: bold;
   text-transform: uppercase;
   display: inline-block;
 }
-
-.nav {
+.menu .nav {
   display: inline-block;
   width: 52.5em;
   text-align: right;
 }
-.nav ul {
+.menu .nav ul {
   list-style-type: none;
 }
 
@@ -9988,18 +9986,13 @@ body {
   .menu {
     width: 1em;
   }
-
-  .logo {
+  .menu .logo {
     font-size: 0.8em;
     display: block;
   }
-
-  nav {
-    width: 1.5em;
-    display: block;
-  }
-  nav ul li {
-    display: block;
+  .menu nav {
+    width: 10.5em;
+    display: none;
   }
 }
 .listad-noticias {
