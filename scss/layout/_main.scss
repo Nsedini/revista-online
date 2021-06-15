@@ -68,3 +68,22 @@
 .newsletter h2 {
     font-size: 1.5rem
 }
+
+@media (max-width: 576px) {
+
+    .listad-noticias {
+        
+        width: 20em;
+    }
+
+    .noticia {
+        text-align: center;
+    }
+
+    .newsletter {
+        display: inline;
+    }
+    
+}
+    
+
