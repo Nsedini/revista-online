@@ -10072,11 +10072,22 @@ body {
   .newsletter {
     display: inline;
   }
+
+  .listado-izquierdo {
+    display: none;
+  }
 }
 .footer {
   width: 60em;
   margin: 0 auto;
   text-align: center;
+}
+@media (max-width: 576px) {
+  .footer {
+    position: absolute;
+    bottom: -2050px;
+    right: -300px;
+  }
 }
 
 .group button {
