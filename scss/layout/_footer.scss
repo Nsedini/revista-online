@@ -2,4 +2,11 @@
     width: 60em;
     margin: 0 auto;
     text-align: center;
+
+    @media (max-width: 576px) {
+        position: absolute;
+        bottom: -2050px;
+        right: -300px;
+    }
 }
+
